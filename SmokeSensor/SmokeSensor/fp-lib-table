@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprint")(type "KiCad")(uri "C:/Users/DucAnh/Desktop/KiCad/Project_DA/SmokeSensor/Libraries/Footprint")(options "")(descr ""))
+)

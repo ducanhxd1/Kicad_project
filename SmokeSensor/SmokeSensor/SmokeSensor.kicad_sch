@@ -1,0 +1,807 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "366cf5f1-2330-485e-b491-4482e3f45cad")
+	(paper "A4")
+	(title_block
+		(date "2026-04-08")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c9efd1-5fee-4917-8e0b-260fe5474166")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41) (xy 121.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d15bc4-949c-4594-bcec-37c32e9ba230")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a54e28d-4b89-4430-9d4b-1d3029f6eae1")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 132.08 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9e2e13-5f7f-4a6f-a166-a55e57121c87")
+	)
+	(wire
+		(pts
+			(xy 123.19 118.11) (xy 110.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256d62b1-6904-48be-9090-46e48e9864fc")
+	)
+	(wire
+		(pts
+			(xy 119.38 110.49) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273a3344-a7ce-4fdd-94f3-d9d5fcc092db")
+	)
+	(wire
+		(pts
+			(xy 167.64 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2feaeb38-e7c4-4fd1-8fb5-9b93fe7ca3dd")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 110.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34379ea4-08c7-4615-9a80-d11ac4a182c5")
+	)
+	(wire
+		(pts
+			(xy 120.65 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f68f877-007c-46cc-afe4-231ab03cdb30")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b155c4-0433-4629-855a-394c7b3f672a")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 119.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d25cf87-e50d-4d0d-9a54-29c800bcfefd")
+	)
+	(wire
+		(pts
+			(xy 121.92 105.41) (xy 121.92 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6621402d-ac2f-4907-b461-381a7ce58591")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.49) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f116464-965b-4ad7-8dca-ddcbd49b3f27")
+	)
+	(wire
+		(pts
+			(xy 167.64 97.79) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ca4989-d52f-46fd-930b-08c6237f52fe")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a18495c-0954-4845-98a2-1fecd687a2b7")
+	)
+	(wire
+		(pts
+			(xy 167.64 90.17) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82380b30-6ff7-4faa-9b9b-54e0a5df05fe")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 120.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c5ca08-3f82-4a23-b86a-701f227f7a52")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8fa87c-0f7b-40c3-bc07-495187b96d33")
+	)
+	(wire
+		(pts
+			(xy 110.49 92.71) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918fee1e-f31b-4b6d-aa07-5369330dada3")
+	)
+	(wire
+		(pts
+			(xy 121.92 115.57) (xy 110.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987ca270-84a8-4719-a72d-582891da14dc")
+	)
+	(wire
+		(pts
+			(xy 167.64 87.63) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3c65ef-7487-4803-8fd7-302822130969")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1142b0-69e5-43f9-beed-b6c38742e1d8")
+	)
+	(wire
+		(pts
+			(xy 167.64 92.71) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc19a797-44f8-4763-a99a-77e1c7f5bae2")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd77a7d5-f9fd-4284-a42e-b59c647caab1")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97b07d3-a1d7-476f-8dc8-2963b7c509cb")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef55c8a7-7103-43c8-9e65-6c0ae0d8f558")
+	)
+	(sheet
+		(at 87.63 54.61)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d0722c1-a59a-4700-8725-d51d58b89493")
+		(property "Sheetname" "POWER"
+			(at 87.63 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 87.63 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmokeSensor"
+				(path "/366cf5f1-2330-485e-b491-4482e3f45cad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 69.85)
+		(size 35.56 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79553e7d-3adf-489f-9850-94162795e93a")
+		(property "Sheetname" "ESP32"
+			(at 132.08 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 132.08 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD" input
+			(at 132.08 92.71 180)
+			(uuid "bb017b65-4953-4b59-87cf-e90a918b6294")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" input
+			(at 132.08 90.17 180)
+			(uuid "c293a2b0-c803-49a9-9dda-46c7b5337c2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT" input
+			(at 132.08 85.09 180)
+			(uuid "7e4e3f7c-8a73-43a3-8af7-a1b9557f4636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 132.08 87.63 180)
+			(uuid "34f20291-1e35-42b0-95c9-b2bbf8eb3fc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 132.08 100.33 180)
+			(uuid "9ef1d3ec-c01e-4ed5-b9e4-a698acc73242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 132.08 102.87 180)
+			(uuid "1f39e92f-9eba-44a4-9261-478e8f8cb182")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Smoke_RX" input
+			(at 132.08 107.95 180)
+			(uuid "b8d11bd6-5ae2-4722-b3d0-9213dcd8eda2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Smoke_TX" input
+			(at 132.08 105.41 180)
+			(uuid "b961c4dd-28a1-4d49-881b-fbc9cf98bec4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STATUS" input
+			(at 132.08 110.49 180)
+			(uuid "0f358925-2c7c-4b8a-a036-efdd469af77c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_LCD" input
+			(at 167.64 82.55 0)
+			(uuid "602f62bb-c2c2-4935-af23-8c29fde428b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS_SD" input
+			(at 167.64 85.09 0)
+			(uuid "4aa4d39f-3536-4bb4-acbd-4f8cd62f198d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC(RS)" input
+			(at 167.64 87.63 0)
+			(uuid "e05cc21e-1f57-49e3-a9a8-6d28a5b1b4c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 167.64 90.17 0)
+			(uuid "26168b4c-cb63-40d8-bee2-515e6916d3db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 167.64 92.71 0)
+			(uuid "2a16a263-2e91-422d-877b-2732b3b2d4a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST" input
+			(at 167.64 95.25 0)
+			(uuid "b07246b5-3ed5-40cb-99e2-2447a1798e22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 167.64 97.79 0)
+			(uuid "f51bf53b-49a7-4c06-9123-8fb2076d3650")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmokeSensor"
+				(path "/366cf5f1-2330-485e-b491-4482e3f45cad"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 107.95)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97a944b8-d16d-480c-aa7e-3388648afc88")
+		(property "Sheetname" "SENSORS"
+			(at 87.63 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 87.63 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 110.49 110.49 0)
+			(uuid "2671465e-0c1f-41c0-95ed-67c6a76eb34a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 110.49 113.03 0)
+			(uuid "9c9133b1-ea22-4638-babe-f0250720a576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Smoke_RX" input
+			(at 110.49 115.57 0)
+			(uuid "5e1b8552-2de3-4705-adfc-daed04e4a301")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Smoke_TX" input
+			(at 110.49 118.11 0)
+			(uuid "747af3b3-ccc5-4c3c-81a7-f8da13c5d207")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STATUS" input
+			(at 110.49 120.65 0)
+			(uuid "64617752-1467-4fca-8961-edf608860e59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmokeSensor"
+				(path "/366cf5f1-2330-485e-b491-4482e3f45cad"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 81.28)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b5d532e-132b-47e0-bbdc-3d77f9b7fb46")
+		(property "Sheetname" "USB UART"
+			(at 87.63 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_UART.kicad_sch"
+			(at 87.63 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BOOT" input
+			(at 110.49 85.09 0)
+			(uuid "ff7e123d-0799-41c6-bcf1-b6b67fc39686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" input
+			(at 110.49 87.63 0)
+			(uuid "20162257-8290-4cdc-a87c-a8a86a61602c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD" input
+			(at 110.49 90.17 0)
+			(uuid "b1dca5bc-2d3a-48df-82d8-33e6b6071da6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 110.49 92.71 0)
+			(uuid "0429e56e-5895-46e7-b62a-c94384decb20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmokeSensor"
+				(path "/366cf5f1-2330-485e-b491-4482e3f45cad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 78.74)
+		(size 24.13 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce193d42-f9bd-45e3-a51b-9b16a1f4867a")
+		(property "Sheetname" "LCD"
+			(at 184.15 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lcd.kicad_sch"
+			(at 184.15 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS_LCD" input
+			(at 184.15 82.55 180)
+			(uuid "ddb06cd8-722f-4eb5-8f2a-9833e50f1910")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_SD" input
+			(at 184.15 85.09 180)
+			(uuid "9ee3e463-361e-481b-9d37-25554b8c0f64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC(RS)" input
+			(at 184.15 87.63 180)
+			(uuid "a599e55d-8dc8-46ec-acbb-12bbf8161c2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 184.15 90.17 180)
+			(uuid "c2ea3b31-f2e7-4d2a-b4f8-8d092e3dd9bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 184.15 92.71 180)
+			(uuid "b17c0404-53de-46e0-a809-946f8a68ebd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST" input
+			(at 184.15 95.25 180)
+			(uuid "4b7181c1-5ee9-472a-a0e4-852918433109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 184.15 97.79 180)
+			(uuid "6ef82b60-dfad-40d1-8163-7fe547546029")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmokeSensor"
+				(path "/366cf5f1-2330-485e-b491-4482e3f45cad"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
