@@ -1222,6 +1222,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 86.36) (xy 87.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7f1d81-7867-497c-998e-f81f823fdd3f")
+	)
+	(wire
+		(pts
 			(xy 106.68 105.41) (xy 106.68 113.03)
 		)
 		(stroke
@@ -1490,6 +1500,17 @@
 			(justify left)
 		)
 		(uuid "1db12498-556b-4f14-96ce-ed02f34004b3")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 82.55 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "883fcba7-4558-4a91-898b-a17295c6fa54")
 	)
 	(hierarchical_label "Smoke_RX"
 		(shape input)

@@ -1634,6 +1634,26 @@
 		)
 		(uuid "9f4cc5f7-f2b7-43c8-9c9c-ddb37c780410")
 	)
+	(text_box "ESP32              LCD ILI9225\n------             -------------\nGPIO23 (MOSI) ---> SDA\nGPIO18 (SCK)  ---> SCK\nGPIO19 (MISO) ---> MISO (SD)\n\nGPIO5         ---> CS (LCD)\nGPIO4         ---> CS (SD)\n\nGPIO16        ---> DC (RS)   \nGPIO17        ---> RESET     \n\n3.3V          ---> VCC\nGND           ---> GND"
+		(exclude_from_sim no)
+		(at 222.25 72.39 0)
+		(size 44.45 34.29)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "609c0913-33f4-4a4f-8f66-989ca62c3f20")
+	)
 	(junction
 		(at 69.85 111.76)
 		(diameter 0)
@@ -2224,6 +2244,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 60.96) (xy 119.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef06e8a6-b4c5-4781-844f-ecfbc7fa8dba")
+	)
+	(wire
+		(pts
 			(xy 166.37 125.73) (xy 166.37 128.27)
 		)
 		(stroke
@@ -2463,6 +2493,17 @@
 			(justify left)
 		)
 		(uuid "06d80785-2bb0-4640-a752-3235ed32e06a")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 111.76 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eafac77-7532-4d8b-8818-a273549cd8fb")
 	)
 	(hierarchical_label "SCL"
 		(shape input)

@@ -861,6 +861,12 @@
 		(color 0 0 0 0)
 		(uuid "5ec1848e-bb6b-4ec5-9471-8c8855543d5e")
 	)
+	(junction
+		(at 119.38 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9998941f-221a-483b-b01e-139f3b97e717")
+	)
 	(no_connect
 		(at 116.84 120.65)
 		(uuid "799a78cf-0740-49f2-a1e0-8b4dbcde773d")
@@ -885,6 +891,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 128.27) (xy 123.19 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21742d1f-7651-40e8-9d12-735ac08e0c37")
+	)
+	(wire
+		(pts
 			(xy 116.84 107.95) (xy 125.73 107.95)
 		)
 		(stroke
@@ -902,6 +918,16 @@
 			(type default)
 		)
 		(uuid "30f9d5e5-b8ff-48ee-84f2-e06d902dc84f")
+	)
+	(wire
+		(pts
+			(xy 119.38 133.35) (xy 119.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3dfda5-57d4-41da-ba94-3a8d703886bb")
 	)
 	(wire
 		(pts
@@ -955,7 +981,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 128.27) (xy 123.19 128.27)
+			(xy 116.84 128.27) (xy 119.38 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1031,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 120.65) (xy 180.34 120.65)
+			(xy 115.57 133.35) (xy 119.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1baef94-a145-420c-ab02-97741e58dc1d")
+	)
+	(wire
+		(pts
+			(xy 172.72 120.65) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1034,7 +1070,7 @@
 		(uuid "0f0ea921-50a3-4f7e-b6ed-7b6e1e28a3cd")
 	)
 	(label "MOSI"
-		(at 180.34 115.57 180)
+		(at 181.61 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1158,16 +1194,27 @@
 		)
 		(uuid "9c03f48b-e133-4a94-b3e8-3d749eb82029")
 	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 115.57 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af2f7f5f-06ff-4eda-8b0d-e3dc2fc9070f")
+	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 181.61 115.57 0)
+		(at 181.61 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a85831a0-8353-4dc7-9d64-65df045461b7")
+		(uuid "b954b15e-177f-400c-839c-6e09bc642fdb")
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
@@ -1249,7 +1296,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x11")
-		(at 111.76 115.57 180)
+		(at 111.76 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1257,7 +1305,7 @@
 		(dnp no)
 		(uuid "3277d310-b970-413d-9ba0-4fe670d21760")
 		(property "Reference" "J3"
-			(at 109.22 116.8401 0)
+			(at 109.22 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1314,7 @@
 			)
 		)
 		(property "Value" "Conn_01x11"
-			(at 109.22 114.3001 0)
+			(at 109.22 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
