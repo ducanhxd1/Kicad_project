@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "366cf5f1-2330-485e-b491-4482e3f45cad")
 	(paper "A4")
 	(title_block
@@ -429,11 +429,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6d0722c1-a59a-4700-8725-d51d58b89493")
 		(property "Sheetname" "POWER"
 			(at 87.63 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,6 +445,8 @@
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
 			(at 87.63 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,11 +495,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "79553e7d-3adf-489f-9850-94162795e93a")
 		(property "Sheetname" "ESP32"
 			(at 132.08 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -505,6 +511,8 @@
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
 			(at 132.08 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,11 +711,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "97a944b8-d16d-480c-aa7e-3388648afc88")
 		(property "Sheetname" "SENSORS"
 			(at 87.63 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,6 +727,8 @@
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
 			(at 87.63 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,11 +817,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9b5d532e-132b-47e0-bbdc-3d77f9b7fb46")
 		(property "Sheetname" "USB UART"
 			(at 87.63 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,6 +833,8 @@
 		)
 		(property "Sheetfile" "USB_UART.kicad_sch"
 			(at 87.63 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,11 +923,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ce193d42-f9bd-45e3-a51b-9b16a1f4867a")
 		(property "Sheetname" "LCD"
 			(at 184.15 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,6 +939,8 @@
 		)
 		(property "Sheetfile" "Lcd.kicad_sch"
 			(at 184.15 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
