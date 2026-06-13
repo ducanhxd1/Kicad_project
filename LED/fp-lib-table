@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "footprint") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprint") (options "") (descr ""))
+	(lib (name "PCB cum tay phai") (type "KiCad") (uri "C:/Users/HaiAnh/Desktop/Workspace/Timhieu/libraries_kicad/PCB cum tay phai.pretty/") (options "") (descr ""))
+)
