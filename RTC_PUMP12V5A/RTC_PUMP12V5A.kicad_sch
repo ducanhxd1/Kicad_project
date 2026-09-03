@@ -2380,6 +2380,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -9219,10 +9342,6 @@
 		(uuid "070b907c-2899-47b8-83ea-1a5d37e481a3")
 	)
 	(no_connect
-		(at 224.79 138.43)
-		(uuid "0e60b0c6-e86e-4e88-909f-dbda415cd297")
-	)
-	(no_connect
 		(at 67.31 156.21)
 		(uuid "1892aae8-c020-4f4f-9792-9d8a7a95a7d9")
 	)
@@ -9235,10 +9354,6 @@
 		(uuid "36792768-673c-4867-b3b7-f3990e97a7ba")
 	)
 	(no_connect
-		(at 224.79 125.73)
-		(uuid "408488bd-b371-4b31-99bf-78c0afc69e3f")
-	)
-	(no_connect
 		(at 49.53 243.84)
 		(uuid "45c07929-71dc-40fd-abfa-089027e1b84c")
 	)
@@ -9249,10 +9364,6 @@
 	(no_connect
 		(at 74.93 241.3)
 		(uuid "59b5bfb1-f98c-4227-984e-2bdb766f4daa")
-	)
-	(no_connect
-		(at 224.79 128.27)
-		(uuid "7bf89880-5baa-4da8-b8ea-643149cff878")
 	)
 	(no_connect
 		(at 267.97 222.25)
@@ -9622,6 +9733,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 39.37) (xy 379.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211abaa8-0f81-4280-9b43-7b1a6e9f6dff")
+	)
+	(wire
+		(pts
 			(xy 78.74 49.53) (xy 76.2 49.53)
 		)
 		(stroke
@@ -9732,16 +9853,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 212.09) (xy 364.49 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2efca898-ed68-4d6b-abea-376424405c9b")
-	)
-	(wire
-		(pts
 			(xy 236.22 240.03) (xy 236.22 242.57)
 		)
 		(stroke
@@ -9769,6 +9880,16 @@
 			(type default)
 		)
 		(uuid "30705f7f-f28d-41fb-9f1b-da6df478080c")
+	)
+	(wire
+		(pts
+			(xy 388.62 38.1) (xy 388.62 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f01cea-0311-45db-b13c-5f71e76d7060")
 	)
 	(wire
 		(pts
@@ -9869,6 +9990,16 @@
 			(type default)
 		)
 		(uuid "3a5eb6ae-ac42-433f-99bf-9412d97c4599")
+	)
+	(wire
+		(pts
+			(xy 281.94 39.37) (xy 281.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9b9fc6-795c-4694-8cc3-71b1516a30fb")
 	)
 	(wire
 		(pts
@@ -10522,7 +10653,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 214.63) (xy 364.49 220.98)
+			(xy 364.49 213.36) (xy 364.49 220.98)
 		)
 		(stroke
 			(width 0)
@@ -10679,6 +10810,16 @@
 			(type default)
 		)
 		(uuid "90437db7-a2f2-4482-9989-09586b94c011")
+	)
+	(wire
+		(pts
+			(xy 364.49 210.82) (xy 364.49 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9056ae74-c3f8-49ce-98dc-0080ce803115")
 	)
 	(wire
 		(pts
@@ -14052,7 +14193,7 @@
 				)
 				(uuid "215a2778-8762-412c-bf0e-78f7d6c6160a")
 			)
-			(table_cell "IO10"
+			(table_cell "IO4\n"
 				(exclude_from_sim no)
 				(at 182.372 266.7 0)
 				(size 11.176 2.54)
@@ -14070,7 +14211,7 @@
 				)
 				(uuid "0137ead4-5094-4fe3-9a14-dabad00c5d74")
 			)
-			(table_cell "IO2"
+			(table_cell "IO5"
 				(exclude_from_sim no)
 				(at 182.372 269.24 0)
 				(size 11.176 2.54)
@@ -14304,7 +14445,7 @@
 			)
 		)
 	)
-	(global_label "IO9"
+	(global_label "IO1"
 		(shape input)
 		(at 40.64 265.43 0)
 		(fields_autoplaced yes)
@@ -14317,30 +14458,6 @@
 		(uuid "0430bc12-46d7-4c04-b147-715d12de51f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.77 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO2"
-		(shape input)
-		(at 162.56 240.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06ab7df1-1dfa-481f-9381-a0dd68c22432")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.69 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14400,30 +14517,6 @@
 			)
 		)
 	)
-	(global_label "IO10"
-		(shape input)
-		(at 224.79 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c40bcc8-d008-4af7-bb15-0c11926ac4d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.4505 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IO3"
 		(shape input)
 		(at 224.79 133.35 180)
@@ -14461,30 +14554,6 @@
 		(uuid "2ac2c37d-94a5-4e73-915a-7568c87fb7ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 293.5733 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO10"
-		(shape input)
-		(at 162.56 237.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "354f84c2-75af-4aeb-b691-cf2ce44f0a1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.8995 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14581,6 +14650,30 @@
 		(uuid "5095c780-a10f-41cd-af85-680eada9b6bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 218.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IO4"
+		(shape input)
+		(at 224.79 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "531086d0-f351-4a9c-8e4f-c15e16099b4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.66 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14736,7 +14829,7 @@
 			)
 		)
 	)
-	(global_label "IO8"
+	(global_label "IO0"
 		(shape input)
 		(at 31.75 236.22 180)
 		(fields_autoplaced yes)
@@ -14760,7 +14853,7 @@
 			)
 		)
 	)
-	(global_label "IO9"
+	(global_label "IO1"
 		(shape input)
 		(at 31.75 233.68 180)
 		(fields_autoplaced yes)
@@ -14853,6 +14946,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "IO5"
+		(shape input)
+		(at 162.56 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a602ab5a-3b42-45fb-a848-a19be970baed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.69 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -14976,7 +15093,7 @@
 			)
 		)
 	)
-	(global_label "IO8"
+	(global_label "IO0"
 		(shape input)
 		(at 40.64 267.97 0)
 		(fields_autoplaced yes)
@@ -15072,6 +15189,30 @@
 			)
 		)
 	)
+	(global_label "IO4"
+		(shape input)
+		(at 162.56 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d96ae288-1a6c-43ae-9f88-2ca50af546a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.69 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IO20"
 		(shape input)
 		(at 255.27 120.65 0)
@@ -15120,30 +15261,6 @@
 			)
 		)
 	)
-	(global_label "PUMP"
-		(shape input)
-		(at 224.79 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ec2bda84-f9e6-40fe-b10a-b1772efa8166")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.4829 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 331.47 39.37 180)
@@ -15157,6 +15274,30 @@
 		(uuid "f1ff7aea-c398-4add-848e-8946cfb1a411")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 326.1867 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PUMP"
+		(shape input)
+		(at 224.79 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f28148bd-757a-4994-ab24-97ff95fe6034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.4829 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15192,7 +15333,7 @@
 			)
 		)
 	)
-	(global_label "EN"
+	(global_label "EN_PWR"
 		(shape input)
 		(at 198.12 54.61 180)
 		(fields_autoplaced yes)
@@ -15204,7 +15345,7 @@
 		)
 		(uuid "fdee50f3-e405-4e73-aa34-d74e783b0fa5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.6553 54.61 0)
+			(at 187.6963 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17849,6 +17990,85 @@
 			(project "RTC_PUMP12V5A"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 281.94 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aa493bd-0154-4f45-aec7-59852e5f0a74")
+		(property "Reference" "TP1"
+			(at 284.48 34.7979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 284.48 37.3379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 287.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 281.94 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae14a2b8-e544-4458-9453-b66d59c72123")
+		)
+		(instances
+			(project "RTC_PUMP12V5A"
+				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -22128,6 +22348,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 388.62 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7b83a46-264a-422e-aaf3-76e5aad017ed")
+		(property "Reference" "TP2"
+			(at 391.16 33.5279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 391.16 36.0679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 393.7 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 388.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9205fb7-7580-4c14-9199-cea6268e811c")
+		)
+		(instances
+			(project "RTC_PUMP12V5A"
+				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 54.61 0)
 		(unit 1)
@@ -23351,7 +23650,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 369.57 212.09 0)
+		(at 369.57 213.36 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23359,10 +23659,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e27c673d-8384-42c1-8467-1e76d3a07561")
 		(property "Reference" "J3"
-			(at 372.11 212.0899 0)
+			(at 372.11 213.3601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23373,7 +23672,7 @@
 			)
 		)
 		(property "Value" "Pump"
-			(at 372.11 214.6299 0)
+			(at 372.11 210.8201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23384,7 +23683,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal"
-			(at 369.57 212.09 0)
+			(at 369.57 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23395,7 +23694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 212.09 0)
+			(at 369.57 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23406,7 +23705,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 369.57 212.09 0)
+			(at 369.57 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

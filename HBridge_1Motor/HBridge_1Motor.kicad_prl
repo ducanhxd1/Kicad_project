@@ -1,19 +1,19 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 1,
-    "net_color_mode": 2,
+    "net_color_mode": 0,
     "opacity": {
-      "images": 0.6,
+      "images": 0.6899999976158142,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.699999988079071,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.699999988079071
+      "zones": 0.33000001311302185
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_fffffff1",
+    "visible_layers": "00000000_00000000_00000000_8208222f",
     "zone_display_mode": 0
   },
   "git": {
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "RTC_PUMP12V5A.kicad_prl",
+    "filename": "HBridge_1Motor.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,16 +92,16 @@
       9
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91
+      56,
+      56,
+      78,
+      63,
+      68,
+      79,
+      70,
+      66,
+      34,
+      35
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
