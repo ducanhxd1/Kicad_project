@@ -5821,7 +5821,7 @@
 		(dnp no)
 		(uuid "5fa637e2-72e9-4b92-8007-e3b71331142d")
 		(property "Reference" "L1"
-			(at 112.776 42.418 90)
+			(at 115.57 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5831,7 +5831,7 @@
 			)
 		)
 		(property "Value" "22uH/2A"
-			(at 118.11 42.418 90)
+			(at 115.824 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

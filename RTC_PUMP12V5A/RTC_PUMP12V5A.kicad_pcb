@@ -20492,7 +20492,6 @@
 			)
 		)
 		(model "${KIPRJMOD}/Libs/3D/AOM12864A0-1.54WW-ANO.step"
-			(hide yes)
 			(offset
 				(xyz 17 -7.5 5.5)
 			)
