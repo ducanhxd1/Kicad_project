@@ -1,0 +1,248 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "18f8a9b7-bab5-436b-ad60-d98bac7a6ef4")
+	(paper "A4")
+	(title_block
+		(date "2026-08-20")
+		(comment 4 "V1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 92.71 68.58)
+		(size 29.21 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4edb3134-159c-4586-b395-ab98e612dff2")
+		(property "Sheetname" "Power"
+			(at 92.71 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 92.71 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RTC_PUMP12V5A_V2"
+				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 68.58)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7449cd4e-2585-41f8-94cd-f1ee70952816")
+		(property "Sheetname" "Mosfet"
+			(at 180.34 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mosfet.kicad_sch"
+			(at 180.34 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RTC_PUMP12V5A_V2"
+				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 102.87)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b53245cb-a163-453a-a7c4-f32098b018b7")
+		(property "Sheetname" "Peripherals"
+			(at 93.98 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 93.98 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RTC_PUMP12V5A_V2"
+				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 68.58)
+		(size 21.59 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e5dddaf9-ba61-45d8-8028-21653b864f07")
+		(property "Sheetname" "Sensor"
+			(at 153.67 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor.kicad_sch"
+			(at 153.67 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RTC_PUMP12V5A_V2"
+				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 68.58)
+		(size 24.13 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f43c5c7b-df8b-4c23-ba52-410768a85c1d")
+		(property "Sheetname" "MCU"
+			(at 125.73 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 125.73 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RTC_PUMP12V5A_V2"
+				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
