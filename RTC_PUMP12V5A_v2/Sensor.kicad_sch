@@ -1833,7 +1833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "165bbb36-471d-4764-b5c7-8f3105ccdfb4")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR031"
 			(at 149.86 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1893,7 +1893,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "#PWR04")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1910,7 +1910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2017534f-bc09-4e51-aedc-8ee81d458288")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR032"
 			(at 177.8 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1970,7 +1970,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "#PWR012")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1987,7 +1987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c9488fd-4c39-4bea-a4ec-b8a640d1218d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR030"
 			(at 147.32 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2047,7 +2047,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "#PWR03")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2064,7 +2064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4349e5df-d48b-4527-bbf8-00e4993ba2c3")
-		(property "Reference" "C3"
+		(property "Reference" "C16"
 			(at 168.91 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2128,7 +2128,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "C3")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2372,7 +2372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ad4a2cc-3d5e-4d47-86b6-57058b107356")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 156.21 88.265 0)
 			(hide yes)
 			(show_name no)
@@ -2432,7 +2432,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2449,7 +2449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79d32cf8-bfba-4dbf-bc1b-0b560292168e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR033"
 			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2509,7 +2509,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "#PWR013")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2527,7 +2527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ac3fe11-ef42-4726-80a2-59021b4901a5")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR029"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2587,7 +2587,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "#PWR01")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2605,7 +2605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2462887-0e8b-4e7d-aa16-3b41bea2e23b")
-		(property "Reference" "R1"
+		(property "Reference" "R15"
 			(at 124.46 89.916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2669,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "R1")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2686,7 +2686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d26ea8b0-2096-46da-ad9e-46acb5344c70")
-		(property "Reference" "R2"
+		(property "Reference" "R16"
 			(at 132.334 89.916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2750,7 +2750,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "R2")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2768,7 +2768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5e7595c-f211-4673-a881-97cca0850b7a")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 152.0033 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2874,7 +2874,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2891,7 +2891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df9b4ccf-52df-483a-8644-9042f4ebd755")
-		(property "Reference" "C4"
+		(property "Reference" "C17"
 			(at 186.69 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +2955,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/e5dddaf9-ba61-45d8-8028-21653b864f07"
-					(reference "C4")
+					(reference "C17")
 					(unit 1)
 				)
 			)

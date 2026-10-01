@@ -2607,7 +2607,7 @@
 			)
 		)
 	)
-	(global_label "IO9"
+	(global_label "IO10"
 		(shape input)
 		(at 99.06 124.46 180)
 		(fields_autoplaced yes)
@@ -2619,7 +2619,7 @@
 		)
 		(uuid "6e4dc8c7-ae51-4775-bb2f-5f775cb9f6d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.93 124.46 0)
+			(at 91.7205 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2664,7 +2664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:ST_D_SMC"
+		(property "Footprint" "TV_ChanSMD:Diode SS54"
 			(at 154.305 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2856,7 +2856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:ST_D_SMC"
+		(property "Footprint" "TV_ChanSMD:Diode SS54"
 			(at 155.575 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2937,7 +2937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f71cca8-f022-48e0-ad7e-e02d580c818a")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR037"
 			(at 151.13 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -2997,7 +2997,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "#PWR041")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3014,7 +3014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3335d771-3bb4-4e82-b451-8b36a9ca8b1b")
-		(property "Reference" "R29"
+		(property "Reference" "R25"
 			(at 147.828 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,7 +3076,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R29")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3093,7 +3093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "397f31c6-db5a-4a0b-b235-9ddf509103a1")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 103.886 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +3155,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51494c55-a939-4660-ad41-ae51fb38b8d2")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 173.99 115.5701 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3391,7 +3391,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3408,7 +3408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531a1828-b0e8-4732-b135-ac6d5b8f6aa0")
-		(property "Reference" "R25"
+		(property "Reference" "R21"
 			(at 135.89 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3470,7 +3470,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R25")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3487,7 +3487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5388aee3-5477-4229-a2b7-e20a6c48ccef")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 128.778 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3549,7 +3549,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3566,7 +3566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fd180d1-9b9c-4974-87b7-f6326086cd4b")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 105.156 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +3628,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3645,7 +3645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65a0a038-0e8d-44a2-b5d4-1234fd3676a2")
-		(property "Reference" "R30"
+		(property "Reference" "R26"
 			(at 149.098 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3707,7 +3707,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R30")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3724,7 +3724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6db9e2e4-7ac9-4cae-8851-cbb635538732")
-		(property "Reference" "C26"
+		(property "Reference" "C20"
 			(at 210.312 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,7 +3746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3788,7 +3788,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "C26")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3805,7 +3805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "761ddc45-3142-407f-957d-914cb1db6b56")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR041"
 			(at 198.12 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3865,7 +3865,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "#PWR049")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3969,7 +3969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85ba9cc3-affc-4f9c-a4b3-52f92192b14f")
-		(property "Reference" "R26"
+		(property "Reference" "R22"
 			(at 137.16 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4031,7 +4031,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R26")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4049,7 +4049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "886c1332-adea-4498-8ce5-6cbd779e8327")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 175.26 63.5001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4113,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "951bffcf-e2ce-43cc-b388-54f8039584cc")
-		(property "Reference" "C24"
+		(property "Reference" "C18"
 			(at 189.992 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4152,7 +4152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4194,7 +4194,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "C24")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4211,7 +4211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abaffb53-1988-412f-a07f-d3faa9679d9f")
-		(property "Reference" "C25"
+		(property "Reference" "C19"
 			(at 200.152 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,7 +4233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 198.12 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4275,7 +4275,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "C25")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4379,7 +4379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be45f44d-71b8-47e7-8f7a-623693e92090")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR040"
 			(at 198.12 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4439,7 +4439,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "#PWR048")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4456,7 +4456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c13e63b9-f638-4737-977b-7ace16a87233")
-		(property "Reference" "R27"
+		(property "Reference" "R23"
 			(at 142.24 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,7 +4520,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R27")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2606afc-73be-45f4-81c5-0b1aaea369c3")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR039"
 			(at 152.4 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4597,7 +4597,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "#PWR043")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4614,7 +4614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e45a3795-6592-4c48-828c-3cd49f7808c8")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 127.508 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,7 +4676,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R23")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f857cec0-3ee0-4245-bf02-a128ee7f6c4c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 152.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4845,7 +4845,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4862,7 +4862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb556621-0d46-4dc7-805e-338d413cdfa9")
-		(property "Reference" "R28"
+		(property "Reference" "R24"
 			(at 143.51 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +4926,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "R28")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4943,7 +4943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcb0cdca-8922-4f82-97bb-ec47dbf77818")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR036"
 			(at 151.13 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5003,7 +5003,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/7449cd4e-2585-41f8-94cd-f1ee70952816"
-					(reference "#PWR040")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)

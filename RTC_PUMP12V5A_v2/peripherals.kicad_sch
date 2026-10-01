@@ -1754,7 +1754,7 @@
 	)
 	(text "TXD"
 		(exclude_from_sim no)
-		(at 99.06 90.424 0)
+		(at 100.838 92.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1776,7 +1776,7 @@
 	)
 	(text "RXD\n"
 		(exclude_from_sim no)
-		(at 99.314 92.964 0)
+		(at 100.838 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2316,7 +2316,7 @@
 				)
 				(uuid "acd0941f-f046-460e-a7e6-5120e1473030")
 			)
-			(table_cell "IO3"
+			(table_cell "IO5\n"
 				(exclude_from_sim no)
 				(at 210.82 69.85 0)
 				(size 11.176 2.54)
@@ -2352,7 +2352,7 @@
 				)
 				(uuid "0137ead4-5094-4fe3-9a14-dabad00c5d74")
 			)
-			(table_cell "IO5"
+			(table_cell "IO3"
 				(exclude_from_sim no)
 				(at 210.82 74.93 0)
 				(size 11.176 2.54)
@@ -2524,6 +2524,30 @@
 	)
 	(global_label "IO5"
 		(shape input)
+		(at 207.01 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22b502af-e47f-492c-987b-15301f96d95b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.14 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IO4"
+		(shape input)
 		(at 207.01 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2532,7 +2556,7 @@
 			)
 			(justify left)
 		)
-		(uuid "278fb481-be77-40bd-b768-0dd974da0691")
+		(uuid "50a7a0c2-03da-4f8f-a559-e30cc7af4174")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.14 99.06 0)
 			(hide yes)
@@ -2572,6 +2596,30 @@
 	)
 	(global_label "IO0"
 		(shape input)
+		(at 199.39 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e31343a-89d8-45c4-8a9f-ccc7ee10844f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IO1"
+		(shape input)
 		(at 199.39 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2580,7 +2628,7 @@
 			)
 			(justify left)
 		)
-		(uuid "87d1e4fb-9599-4e22-8e6e-81652f842b92")
+		(uuid "8db38cf6-2fb6-4070-acfe-1cb6411e63ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.52 129.54 0)
 			(hide yes)
@@ -2594,7 +2642,7 @@
 			)
 		)
 	)
-	(global_label "IO4"
+	(global_label "IO3"
 		(shape input)
 		(at 207.01 101.6 0)
 		(fields_autoplaced yes)
@@ -2604,33 +2652,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9221832c-8612-45a4-a4ca-2b4c044d9be5")
+		(uuid "a4f985b1-e45a-460d-9767-38680be4c820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.14 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO20"
-		(shape input)
-		(at 127 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9a685c5-efe1-42d2-9e5c-9241372c3a60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.3395 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,9 +2690,9 @@
 			)
 		)
 	)
-	(global_label "IO3"
+	(global_label "IO21"
 		(shape input)
-		(at 207.01 96.52 0)
+		(at 127 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2676,9 +2700,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d23ca08a-8f99-41ee-89b5-b35d7be8525a")
+		(uuid "c9ebd294-5b79-40bb-8f84-b353db1c3ccb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.14 96.52 0)
+			(at 134.3395 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,7 +2714,7 @@
 			)
 		)
 	)
-	(global_label "IO21"
+	(global_label "IO20"
 		(shape input)
 		(at 127 87.63 0)
 		(fields_autoplaced yes)
@@ -2700,33 +2724,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ee610981-bab5-42a2-a8a3-0b97b88fe27d")
+		(uuid "ef0da897-27a4-4ec2-ba8d-22810a35bba5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.3395 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IO1"
-		(shape input)
-		(at 199.39 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f96c3639-c17f-483d-9627-9a6f57576019")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.52 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,7 +2903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fd436b0-d20b-419c-b85f-ea3f6c2d195b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR048"
 			(at 212.09 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2963,7 +2963,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "#PWR06")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2980,7 +2980,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "1278ac30-423c-42a8-9380-fc48ec04c2a6")
-		(property "Reference" "R11"
+		(property "Reference" "R28"
 			(at 120.65 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3044,7 +3044,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "R11")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3061,7 +3061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f092788-70ae-49e2-9a2b-eab689ea77ca")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR042"
 			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3121,7 +3121,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "#PWR015")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b40a532-3295-4253-84ec-daa22dd95ff8")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 103.124 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3381,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b4e1883-a55a-4054-accb-e89a142c3187")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR043"
 			(at 113.03 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3458,7 +3458,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "#PWR016")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3475,7 +3475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "583f7ff5-07b2-452d-a18c-1309a1eb1c28")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 181.61 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,7 +3539,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3633,7 +3633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69ae3648-6bb6-4517-8f66-fbbd9f189245")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 163.83 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,7 +3697,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3792,7 +3792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a9d62d4-b537-419f-9d71-c025f137b30d")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 172.72 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,7 +3869,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3963,7 +3963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fef7275-b663-4c5f-8543-eb04bcada057")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR049"
 			(at 212.09 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4023,7 +4023,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "#PWR07")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4040,7 +4040,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9d9a19b9-6e55-4640-873d-65318f42276f")
-		(property "Reference" "R10"
+		(property "Reference" "R27"
 			(at 120.65 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,7 +4104,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "R10")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4275,7 +4275,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "cfaa870f-a651-4da7-8ec5-6c63542e20d9")
-		(property "Reference" "R4"
+		(property "Reference" "R30"
 			(at 190.5 131.826 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,7 +4339,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "R4")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4356,7 +4356,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f7caa9b7-d44b-4a3e-8d04-8cd165b681b9")
-		(property "Reference" "R3"
+		(property "Reference" "R29"
 			(at 190.5 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4420,7 @@
 		(instances
 			(project "RTC_PUMP12V5A_V2"
 				(path "/18f8a9b7-bab5-436b-ad60-d98bac7a6ef4/b53245cb-a163-453a-a7c4-f32098b018b7"
-					(reference "R3")
+					(reference "R29")
 					(unit 1)
 				)
 			)
