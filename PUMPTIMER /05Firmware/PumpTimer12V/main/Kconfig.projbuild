@@ -1,0 +1,38 @@
+menu "Pump Timer board pins"
+
+    config PUMP_TFT_MOSI_GPIO
+        int "TFT MOSI GPIO"
+        range 0 21
+        default 7
+
+    config PUMP_TFT_SCLK_GPIO
+        int "TFT SCLK GPIO"
+        range 0 21
+        default 6
+
+    config PUMP_TFT_CS_GPIO
+        int "TFT CS GPIO"
+        range 0 21
+        default 3
+
+    config PUMP_TFT_DC_GPIO
+        int "TFT DC GPIO"
+        range 0 21
+        default 4
+
+    config PUMP_TFT_RST_GPIO
+        int "TFT RST GPIO"
+        range 0 21
+        default 5
+
+    config PUMP_RTC_SDA_GPIO
+        int "DS3231 SDA GPIO"
+        range 0 21
+        default 0
+
+    config PUMP_RTC_SCL_GPIO
+        int "DS3231 SCL GPIO"
+        range 0 21
+        default 1
+
+endmenu
