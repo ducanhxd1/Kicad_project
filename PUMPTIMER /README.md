@@ -16,6 +16,10 @@ trạng thái trên màn hình TFT.
 
 ![Mô hình 3D bo mạch Pump Timer](01Docs/Images/front.png)
 
+## Hình ảnh thực tế 
+
+![bo mạch Pump Timer](01Docs/Images/board.jpg)
+
 ## Bắt đầu
 
 - **Xem sơ đồ:** mở [sơ đồ nguyên lý dạng PDF](02Schematic/schematics.pdf).
@@ -52,6 +56,5 @@ trạng thái trên màn hình TFT.
   đang dùng; không mặc định tên project là thông số định mức đã kiểm chứng.
 - Kiểm tra ERC/DRC và đối chiếu các file Gerber với thiết kế hiện tại trước khi
   đặt PCB.
-- Thử nghiệm có kiểm soát với tải phù hợp; không kết nối tải điện lưới khi thử
-  firmware trên 
+- Thử nghiệm có kiểm soát với tải phù hợp
 

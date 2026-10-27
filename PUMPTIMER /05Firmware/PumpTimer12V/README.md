@@ -53,4 +53,6 @@ idf.py -p PORT flash monitor
   và múi giờ.
 
 
+## Demo video 
 
+- `Link`: https://youtu.be/xzISH9F25kE
