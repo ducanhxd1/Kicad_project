@@ -31,7 +31,7 @@
 Yêu cầu ESP-IDF 5.5 và toolchain cho ESP32-C3. Mở terminal ESP-IDF:
 
 ```bash
-cd st7735_test
+cd PumpTimer12V
 idf.py set-target esp32c3
 idf.py menuconfig
 idf.py build
