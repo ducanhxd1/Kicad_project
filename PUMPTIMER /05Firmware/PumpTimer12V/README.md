@@ -2,7 +2,7 @@
 
 ## Hiển thị
 
-- Thứ, ngày/tháng/năm và giờ chạy theo thời gian địa phương.
+- Thứ, ngày/tháng/năm và giờ chạy theo thời gian Việt Nam.
 - Trạng thái P1/P2, chế độ AUTO/MAN/OFF và thời gian còn lại khi bơm đang chạy.
 - Trạng thái Wi-Fi và địa chỉ IP dùng để mở website.
 - Khi lịch hoặc chạy tay được thay đổi trên website, TFT hiện thông báo trong
@@ -54,5 +54,7 @@ idf.py -p PORT flash monitor
 
 
 ## Demo video 
+
+Demo basic ở link này, bấm vào để xem.
 
 - `Link`: https://youtu.be/xzISH9F25kE
