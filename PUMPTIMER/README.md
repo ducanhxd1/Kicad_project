@@ -18,7 +18,7 @@ trạng thái trên màn hình TFT.
 
 ## Hình ảnh thực tế 
 
-![bo mạch Pump Timer](01Docs/Images/board.jpg)
+![bo mạch Pump Timer](01Docs/Images/board.jpeg)
 
 ## Bắt đầu
 
